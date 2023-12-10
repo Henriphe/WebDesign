@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de Impostos</title>
+</head>
+<body>
+    <div class="odin">
+        <div class="sidebar">
+            <div class="login-button">
+                <a href="login.html" style="display: inline-flex;">
+                    <img src="casa.svg" alt="home-image" width="50px" style="margin-right: 10px;">
+                    <h2 style="margin-left: 10px;">Home</h2>
+                </a>
+            </div>
+            <ul>
+                <li><a href="desen.html">Avisos</a></li>
+                <li><a href="index.html">Calculadora</a></li>
+                <li><a href="https://github.com/Henriphe" target="_blank">Meu Github</a></li>
+            </ul>
+            <div class="bottom-image">
+                <a href="https://ifce.edu.br/aracati/menu/o-campus" target="_blank"><img class="logoif" src="if.png" alt="Bottom Image" width="100%" height="auto"></a>
+                
+            </div>
+        </div>
+        <div class="container">
+            <h1>Calculadora de Impostos</h1>
+        <form id="calculatorForm">
+            <div class="textfield">
+                <label for="selectTax">Selecione o Imposto:</label>
+                <select id="selectTax" name="selectTax">
+                    <option value="imposto1">Imposto 1</option>
+                    <option value="imposto2">Imposto 2</option>
+                    <!-- Adicione mais opções conforme necessário -->
+                </select>
+    
+                <label for="inputRate">Aliquota a ser Calculada:</label>
+                <input type="text" id="inputRate" name="inputRate" placeholder="Digite a alíquota">
+    
+                <label for="inputProfit">Preencha o Valor do Lucro Bruto:</label>
+                <input type="text" id="inputProfit" name="inputProfit" placeholder="Digite o valor do lucro bruto">
+    
+                <label for="result">Resultado:</label>
+                <input type="text" id="result" name="result" readonly>
+    
+                <button type="button" onclick="">Calcular</button>
+            </div>
+            
+        </form>
+        </div>
+    </div>
+    </div>
+
+    
+</body>
+</html>
